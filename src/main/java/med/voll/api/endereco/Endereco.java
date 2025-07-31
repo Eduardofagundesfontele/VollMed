@@ -6,7 +6,9 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Embedded
+import jakarta.persistence.Embeddable;
+
+@Embeddable
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
